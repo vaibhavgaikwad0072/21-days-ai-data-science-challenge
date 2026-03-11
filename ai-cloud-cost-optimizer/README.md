@@ -23,6 +23,11 @@ Our platform provides a high-level overview of your cloud spend:
 - **Service Breakdown**: Visualization of costs across EC2, RDS, Lambda, and more.
 - **Optimization Rules**: Automatic detection of "Unexpected Cost Spikes" with estimated monthly savings (e.g., $47.72 per instance).
 
+## 🎥 Demo Video
+
+Check out the full walkthrough of the platform in action:
+
+[Watch the Demo Video](videos/demo.mp4)
 
 ## 📁 Project Structure
 
