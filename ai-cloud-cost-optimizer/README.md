@@ -10,6 +10,20 @@ The AI Cloud Cost Optimizer is a powerful tool designed to analyze AWS cloud usa
 - **AI Recommendation Engine**: Rule-based logic that suggests actions like stopping idle instances or moving data to Glacier.
 - **Interactive Dashboard**: Beautiful UI built with Streamlit and Plotly for visual insights.
 
+## 📊 Dashboard Preview
+
+Our platform provides a high-level overview of your cloud spend:
+- **Total Monthly Cost**: ~$7,925.62
+- **Detected Anomalies**: 18 potential issues identified.
+- **Cost Savings Opportunities**: 5 actionable recommendations.
+
+![Dashboard Overview](screenshots/final_dashboard.png)
+
+### Key Insights:
+- **Service Breakdown**: Visualization of costs across EC2, RDS, Lambda, and more.
+- **Optimization Rules**: Automatic detection of "Unexpected Cost Spikes" with estimated monthly savings (e.g., $47.72 per instance).
+
+
 ## 📁 Project Structure
 
 ```
