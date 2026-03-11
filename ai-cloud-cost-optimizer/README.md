@@ -78,7 +78,7 @@ The project was successfully deployed to an AWS EC2 instance. The process involv
 Here is the step-by-step process of deploying the platform to AWS:
 
 ### 1. EC2 Instance Configuration
-![EC2 Setup](screenshots/ec2_setup.png)
+![EC2 Setup](screenshots/final_dashboard.png)
 
 ### 2. SSH Connection & Docker Setup
 ![SSH Login](screenshots/ssh_login.png)
@@ -87,7 +87,7 @@ Here is the step-by-step process of deploying the platform to AWS:
 ![Docker Deployment](screenshots/docker_deployment.png)
 
 ### 4. Final Dashboard Live
-![Final Dashboard](screenshots/final_dashboard.png)
+![Final Dashboard](screenshots/ec2_setup.png)
 
 ## 🤖 How it Works
 1. **Backend**: Loads data from `data/sample_cost_data.csv` and uses Pandas to calculate metrics.
