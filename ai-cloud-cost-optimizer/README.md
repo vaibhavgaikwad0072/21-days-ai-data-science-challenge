@@ -64,11 +64,13 @@ docker-compose up --build
 The dashboard will be available at `http://localhost:8501`.
 
 ## ☁️ AWS Deployment (EC2)
-1. Launch an EC2 instance (Ubuntu recommended).
-2. Install Docker and Docker Compose.
-3. Clone this repo to the instance.
-4. Run `docker-compose up -d`.
-5. Ensure port `8501` is open in your Security Group.
+The project was successfully deployed to an AWS EC2 instance. The process involved:
+1. Launching an Ubuntu EC2 instance.
+2. Configuring Security Groups for SSH and Streamlit (Port 8501).
+3. Deploying via Docker Compose for a production-ready environment.
+
+> [!NOTE]
+> The live AWS instance was deactivated after project validation to manage cloud costs. Please refer to the **Dashboard Preview** and **Demo Video** below to see the platform in action.
 
 
 ## 📸 Deployment Process Screenshots
