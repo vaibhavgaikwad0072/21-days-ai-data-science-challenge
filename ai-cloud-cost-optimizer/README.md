@@ -51,6 +51,23 @@ The dashboard will be available at `http://localhost:8501`.
 4. Run `docker-compose up -d`.
 5. Ensure port `8501` is open in your Security Group.
 
+
+## 📸 Deployment Process Screenshots
+
+Here is the step-by-step process of deploying the platform to AWS:
+
+### 1. EC2 Instance Configuration
+![EC2 Setup](screenshots/ec2_setup.png)
+
+### 2. SSH Connection & Docker Setup
+![SSH Login](screenshots/ssh_login.png)
+
+### 3. Application Deployment
+![Docker Deployment](screenshots/docker_deployment.png)
+
+### 4. Final Dashboard Live
+![Final Dashboard](screenshots/final_dashboard.png)
+
 ## 🤖 How it Works
 1. **Backend**: Loads data from `data/sample_cost_data.csv` and uses Pandas to calculate metrics.
 2. **AI Engine**: Scans the processed data for specific patterns (Low CPU, High Storage Cost, Sudden Spikes).
